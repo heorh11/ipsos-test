@@ -1,0 +1,9 @@
+contactForm:
+    firstName: "Jméno"
+    lastName: "Příjmení"
+    subject: "Předmět"
+    message: "Text zprávy"
+    submit: "Odeslat"
+    success: "Zpráva úspěšně odeslána"
+    title: "Kontaktní formulář"
+    submittedValues: "Odeslané hodnoty"

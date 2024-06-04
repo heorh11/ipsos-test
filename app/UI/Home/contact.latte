@@ -1,0 +1,24 @@
+{block header}
+     <h1>{_ 'messages.contactForm.title'}</h1>
+     <div class='nav'>
+        <a href="{$presenter->link('Info:info')}">Info</a>
+     </div>
+     <div class='languages'>
+     <a  n:href="changeLanguage! cs">Cs</a> 
+     <a  n:href="changeLanguage! en">En</a>
+     </div>
+    
+{/block}
+{block content}
+    {control contactForm}
+
+    {if $contactFormValues}
+        <h2>{_ 'messages.contactForm.submittedValues'}</h2>
+        <ul>
+            <li>{_ 'messages.contactForm.firstName'}: {$contactFormValues->firstName}</li>
+            <li>{_ 'messages.contactForm.lastName'}: {$contactFormValues->lastName}</li>
+            <li>{_ 'messages.contactForm.subject'}: {$contactFormValues->subject}</li>
+            <li>{_ 'messages.contactForm.message'}: {$contactFormValues->message}</li>
+        </ul>
+    {/if}
+{/block}

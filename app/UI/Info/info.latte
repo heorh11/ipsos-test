@@ -1,0 +1,7 @@
+{block header}
+    <h1>Protected Info Page</h1>
+{/block}
+{block content}
+    <p>Only authenticated users can see this page.</p>
+    <a href="{$presenter->link('Home:contact')}">Contact Us</a>
+{/block}

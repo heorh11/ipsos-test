@@ -1,0 +1,9 @@
+contactForm:
+    firstName: "First Name"
+    lastName: "Last Name"
+    subject: "Subject"
+    message: "Message"
+    submit: "Submit"
+    success: "Message successfully sent"
+    title: "Contact Form"
+    submittedValues: "Submitted Values"

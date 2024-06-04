@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+body header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body header h1 {
+    font-size: 26px;
+}
+
+body header .languages a,
+body header .nav a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    background-color: aquamarine;
+
+}
+
+form table {
+    margin: auto;
+}
+
+form table tr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form table .button {
+    font-size: 16px;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    background-color: aquamarine;
+}
